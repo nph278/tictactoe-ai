@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 crossterm = "0.25.0"
+
+[profile.release]
+strip = true
